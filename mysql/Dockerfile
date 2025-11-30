@@ -3,3 +3,9 @@ ENV MYSQL_ROOT_PASSWORD="RoboShop@1"
 # if w ekeep all our sctpt files /docker-entrypoint-initdb.d in this path then mysql image will take care other things
 COPY db/ /docker-entrypoint-initdb.d
 
+#docker exec -it <mysql-container-id> bash
+# mysql -u root -pRoboShop@1
+#show databases;
+#select * from cities;
+
+
