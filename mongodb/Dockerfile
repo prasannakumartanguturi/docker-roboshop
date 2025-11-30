@@ -12,3 +12,7 @@
 
 FROM mongo:7.0
 COPY *.js /docker-entrypoint-initdb.d
+
+# docker rm -f $(docker ps -aq) -> to remove all containers
+# docker rmi -f $(docker images -aq) -> to remove all images
+
